@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - HopeHive</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>About HopeHive</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="addchild.html">Add More Children</a>
+      <a href="adopt.html">Adopt a Child</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Mission Passage -->
+    <section class="mission">
+      <p><h2>The Mission of HopeHive: Building Families, Restoring Hope, Transforming Futures</h2></p>
+      <p>
+        At the heart of HopeHive lies a revolutionary vision: to redefine child welfare in India by bridging the gap between vulnerable children and loving families. We believe every child deserves more than just survival—they deserve to thrive in a nurturing environment where their potential is unlocked, their voices are heard, and their dreams are given wings. Our mission is rooted in the conviction that family is not merely a biological bond but a sacred promise of love, security, and belonging.
+      </p>
+      <h2>A Child-Centric Revolution</h2>
+      <p>
+        India is home to over <em>30 million orphaned and abandoned children</em>, many of whom face systemic barriers to finding permanent homes. HopeHive was born to challenge this status quo. We reject institutionalization as a long-term solution and instead champion <strong>family-based care</strong> as the cornerstone of child development. Our work spans three pillars:
+      </p>
+      <ol>
+        <li><em>Prevention</em>: Strengthening struggling families to avoid separation.</li>
+        <li><em>Reunification</em>: Restoring children to biological families when safe.</li>
+        <li><em>Adoption</em>: Connecting children with forever families when reunification isn’t possible.</li>
+      </ol>
+      <p>
+        We recognize that adoption is not just a transaction but a lifelong journey. That’s why we go beyond matching children with families—we build ecosystems of support. From trauma-informed counseling for adoptive parents to cultural preservation programs for children, we ensure that every adoption is a bridge to healing, not just a legal process.
+      </p>
+      <h2>Ethical Advocacy in Action</h2>
+      <p>
+        HopeHive operates on a bedrock of <em>transparency and integrity</em>. In a landscape often marred by corruption and exploitation, we’ve pioneered India’s first fully digitized adoption tracking system, allowing prospective parents to monitor their application’s progress in real time. Our strict anti-trafficking protocols and partnerships with law enforcement agencies ensure every child’s story is ethically sourced and thoroughly verified.
+      </p>
+      <p>
+        But our mission extends beyond paperwork. We’ve trained over <em>2,500 social workers</em> across 15 states in trauma-responsive care, equipping them to sensitively guide children through transitions. Our "Adoption Ambassadors" program recruits adults who grew up in adoptive families to mentor newcomers, creating intergenerational chains of support.
+      </p>
+      <h2>Community as Catalyst</h2>
+      <p>
+        True change begins at the grassroots. HopeHive’s <em>"Adopt a Village"</em> initiative works with rural communities to dismantle stigma around adoption. In Punjab, we’ve partnered with panchayats to celebrate adoption through annual festivals. In Kerala, we’ve collaborated with temples and churches to include adoptive families in traditional ceremonies. These efforts have increased local adoption rates by <em>40%</em> in pilot regions.
+      </p>
+      <p>
+        For children with special needs—who represent 28% of those in institutional care—we’ve launched <em>Project Udaan</em>. This program pairs physiotherapists, speech therapists, and occupational therapists with prospective adoptive families, providing six months of free post-adoption care. The results? A 65% increase in special needs adoptions since 2022.
+      </p>
+      <h2>The Ripple Effect of Love</h2>
+      <p>
+        Every adoption facilitated by HopeHive creates a ripple effect. Our data shows that:
+      </p>
+      <ul>
+        <li>89% of adoptive families volunteer in child welfare programs</li>
+        <li>72% of adoptees pursue higher education (vs. 23% in institutional care)</li>
+        <li>1 in 4 adoptive parents become donors or advocates</li>
+      </ul>
+      <p>
+        But numbers only tell half the story. Meet Riya, a 7-year-old from Mumbai who found her forever family through HopeHive. Today, she’s teaching her adoptive British parents Marathi while they help her navigate dyslexia. Or Arjun, a former street child in Chennai who now runs a thriving bakery with his adoptive father—a HopeHive success story that employs three other orphaned youth.
+      </p>
+      <h2>Our Pledge for Tomorrow</h2>
+      <p>
+        As we look ahead, HopeHive is pioneering:
+      </p>
+      <ul>
+        <li><em>AI-Driven Matching</em>: An algorithm that considers emotional temperament, cultural values, and lifestyle compatibility.</li>
+        <li><em>Post-Adoption Wellness Checks</em>: 10-year longitudinal studies to improve support systems.</li>
+        <li><em>National Foster Care Network</em>: A bridge program for children awaiting permanent homes.</li>
+      </ul>
+      <p>
+        We dream of an India where "orphan" is an archaic term—where every child grows up knowing the embrace of a family. This is not charity; it’s a justice movement. Every child we place in a loving home is a step toward dismantling systemic inequality and rewriting societal narratives about kinship.
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 HopeHive Child Adoption Portal</p>
+  </footer>
+
+  <!-- Dark Mode Toggle -->
+  <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
+
+  <script>
+    const toggleBtn = document.getElementById('darkModeToggle');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      toggleBtn.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
+    });
+  </script>
+</body>
+</html>

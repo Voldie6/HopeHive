@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HopeHive Child Adoption Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>HopeHive Child Adoption Portal</h1>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="addchild.html">Add More Children</a>
+      <a href="adopt.html">Adopt a Child</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Welcome to HopeHive</h2>
+      <p>
+        At HopeHive, our vision is to create a nurturing community where every child finds a loving home.
+        We believe that every child deserves a family and every parent deserves the joy of a child who lights up their life.
+      </p>
+      <p>
+        Through our dedicated platform, we connect compassionate parents with children who are looking for one –
+        fostering bonds that transform lives and build brighter futures. Join us in making a difference, one family at a time.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 HopeHive Child Adoption Portal</p>
+  </footer>
+
+  <!-- Stylish Dark Mode Toggle at Bottom Right -->
+  <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
+
+  <script>
+    const toggleBtn = document.getElementById('darkModeToggle');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      // Optional: Change the icon based on mode
+      toggleBtn.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
+    });
+  </script>
+</body>
+</html>
